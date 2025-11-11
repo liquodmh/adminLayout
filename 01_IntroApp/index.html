@@ -2,18 +2,68 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Songs Table</title>
+    <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body>
-    <h1>Intro Page1</h1>
-    <p>This is the introduction page.</p>
-    <hr>
-    <button onclick="DoSomething()">click</button>
-    <input type="password">
+    <h1>Songs</h1>
+
+    <table class="song-table">
+        <thead>
+            <tr>
+                <th>Song Name</th>
+                <th>Year</th>
+                <th>Image</th>
+                <th>YouTube Video</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Blinding Lights — The Weeknd</td>
+                <td>2019</td>
+                <td>
+                    <img src="https://img.youtube.com/vi/fHI8X4OXluQ/hqdefault.jpg" alt="Blinding Lights thumbnail" />
+                </td>
+                <td>
+                    <iframe src="https://www.youtube.com/embed/fHI8X4OXluQ" title="Blinding Lights" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen>
+                    </iframe>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Shape of You — Ed Sheeran</td>
+                <td>2017</td>
+                <td>
+                    <img src="https://img.youtube.com/vi/JGwWNGJdvx8/hqdefault.jpg" alt="Shape of You thumbnail" />
+                </td>
+                <td>
+                    <iframe src="https://www.youtube.com/embed/JGwWNGJdvx8" title="Shape of You" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen>
+                    </iframe>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Levitating — Dua Lipa</td>
+                <td>2020</td>
+                <td>
+                    <img src="https://img.youtube.com/vi/TUVcZfQe-Kw/hqdefault.jpg" alt="Levitating thumbnail" />
+                </td>
+                <td>
+                    <iframe src="https://www.youtube.com/embed/TUVcZfQe-Kw" title="Levitating" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen>
+                    </iframe>
+                </td>
+            </tr>
+        </tbody>
+    </table>
 </body>
-<script src="index.js"></script>
 
 </html>
